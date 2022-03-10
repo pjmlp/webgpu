@@ -20,6 +20,7 @@ python3 server/server.py
 
 You should see something like,
 
+![Screenshot](images/screenshot.png)
 
 # Moving forward
 
