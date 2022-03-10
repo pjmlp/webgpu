@@ -28,3 +28,6 @@ Feel free to pick this template and modify it at your pleasure as you get to lea
 
 Here are some resources I find interesting on the subject:
 
+* [WebGPU Samples](https://austin-eng.com/webgpu-samples/)
+* [WebGPU Best Practices](https://toji.github.io/webgpu-best-practices/)
+* [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
