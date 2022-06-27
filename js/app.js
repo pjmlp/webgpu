@@ -20,7 +20,8 @@ async function createPipeline(vertexShader, fragmentShader) {
 
     context.configure({
         device,
-        format: swapChainFormat
+        format: swapChainFormat,
+        alphaMode: "premultiplied"
     });
 
     const vertexShaderWgslCode = vertexShader;
@@ -28,6 +29,7 @@ async function createPipeline(vertexShader, fragmentShader) {
     const fragmentShaderWgslCode = fragmentShader;
 
     const pipeline = device.createRenderPipeline({
+        layout: "auto",
         vertex: {
             module: device.createShaderModule({
                 code: vertexShaderWgslCode
